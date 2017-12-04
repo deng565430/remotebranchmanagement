@@ -1,0 +1,34 @@
+{
+  "name": "remotebranchmanagement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deng565430/remotebranchmanagement.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deng565430/remotebranchmanagement/issues"
+  },
+  "homepage": "https://github.com/deng565430/remotebranchmanagement#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.3",
+    "nodemon": "^1.12.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "shelljs": "^0.7.8"
+  }
+}
